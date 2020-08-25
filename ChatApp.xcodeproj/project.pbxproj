@@ -163,7 +163,6 @@
 				239E441808A40FCED569EEE3 /* Pods-ChatAppTests.debug.xcconfig */,
 				048DC8F94543016D9D2C0516 /* Pods-ChatAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
