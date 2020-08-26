@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  IndexView.swift
 //  ChatApp
 //
 //  Created by Kevin Candelaria on 25/08/2020.
@@ -8,7 +8,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct IndexView: View {
+    @Binding var authentication: Authentication
+    @Binding var onboarded: Bool
     var body: some View {
         VStack(alignment: .center) {
             Image("logo")
@@ -18,7 +20,8 @@ struct ContentView: View {
             .kerning(4.0)
             .padding(.top, -52.0)
             Button(action: {
-                print("Sign Up tapped!")
+                self.authentication = .signup
+                self.onboarded = true
             }) {
                     Text("Sign up")
                     .kerning(2.0)
@@ -32,7 +35,8 @@ struct ContentView: View {
                     .padding()
             }.padding(.top, 24.0)
             Button(action: {
-                print("Log in tapped!")
+                self.authentication = .login
+                self.onboarded = true
             }) {
                     Text("Login")
                     .kerning(2.0)
@@ -49,8 +53,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct IndexView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        IndexView(authentication: .constant(.login), onboarded: .constant(false))
     }
 }
