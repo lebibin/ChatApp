@@ -7,6 +7,7 @@ target 'ChatApp' do
   use_frameworks!
 
   # Pods for ChatApp
+  pod 'IQKeyboardManagerSwift'
 
   target 'ChatAppTests' do
     inherit! :search_paths

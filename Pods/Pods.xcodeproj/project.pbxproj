@@ -7,19 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D1A988D07BDA9C323D2A111EEC929C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1675B78BD522B2658126D20B7D665744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		408C87478A9AF0547B33E4E9C5B70377 /* Pods-ChatApp-ChatAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FD62BB3081B2F613A3972CF39B39D4 /* Pods-ChatApp-ChatAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EC8CD21E12C9EABCD8A7EF2ACC4DD25 /* Pods-ChatApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D933D95142BBE687526675C934D0D73 /* Pods-ChatApp-dummy.m */; };
-		7A4DD51D3AC070E0083C8C61F87B5306 /* Pods-ChatApp-ChatAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B33D98084BE69EDF57375F63D1F90202 /* Pods-ChatApp-ChatAppUITests-dummy.m */; };
-		9A410EA3E7BFA2F4D7942C13883A3375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BBCD273806682DA823F1CC610536810B /* Pods-ChatAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E85CCBC1733110D35DF827E7E447757 /* Pods-ChatAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C15D2950216F564C5FB8ACB382B75926 /* Pods-ChatAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B787792D2C6827DAF4F68AF7827EE029 /* Pods-ChatAppTests-dummy.m */; };
-		D7B62DFAC4360A70BB3F524CA9E92C1C /* Pods-ChatApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 471AE45F6A893337A84FD27D844CBCF4 /* Pods-ChatApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0564E54A6F03094F6F39F7D2325CE0D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */; };
+		102F4487BC4ADC3C2B56A0470E0A9468 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132422F7FD2826D961BDFDAF131EB48 /* IQKeyboardManagerConstantsInternal.swift */; };
+		239B316566CE5D8E27404A3F78524066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		24E7B9696D7708508C2E15ADD936F77C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		259D6FC80BCFE785471F743B1F533970 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3927D54819D59F8277DF380A2748E1 /* IQNSArray+Sort.swift */; };
+		2964A4832ED09F9CB441D25FB2F7B76C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		3F091C427A3E96117C902E8EA143729E /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3057707BB706AAF034B6D708F9A227AE /* IQKeyboardManager.swift */; };
+		4737103B10A1C40C5301D0512B9310E4 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A734DA18EB2A619E5DCD06929D582 /* IQKeyboardReturnKeyHandler.swift */; };
+		4C069FA7FAA45154DA92CF5DF3BCDCA9 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66F54B712994CD5B1D65908F270DF5 /* IQUITextFieldView+Additions.swift */; };
+		4F0CF2AD58CF0D08BC090E7AF0DD63D7 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0C69B3B6881C804F89A7040C51130 /* IQInvocation.swift */; };
+		5044FEAEF09468B6964F9F37A1F1F45C /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15BBB8B74533E3FEC261560B5917F5 /* IQPreviousNextView.swift */; };
+		62A85277D0462C43B80A05E8822794BB /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F43534BC1AFDC445DBE922ACC7C646 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74341DA37F4B926FDF4CB2599CAC547A /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DB788589E16A50605EEF6AD68F414C /* IQUIViewController+Additions.swift */; };
+		7FB3576FD619DD256294BAD7E5F83CBE /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E75145E17AE8E2CB136609D2C00B3 /* IQTextView.swift */; };
+		8B439A47AA5FDEF67AD63BDDB808AC5A /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6A7C3C069EDDB70E8CFE79436229CB /* IQUIView+Hierarchy.swift */; };
+		8F92DE493E66A26C230C75F95BEB6C77 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */; };
+		980E5594F8DBCE362764AEDC2F086E36 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C4FBF7859B4844A58F142042039CA /* IQToolbar.swift */; };
+		9A410EA3E7BFA2F4D7942C13883A3375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		A4CBAD531AD7ABAC2D05C7BC07CDE48E /* Pods-ChatApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4F43F7E040B111D75D6367BC69BAE2 /* Pods-ChatApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE3B246482DCD60BA846EA3CE983A1FB /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD7F7755E1A630C3813F4293009939 /* IQUIView+IQKeyboardToolbar.swift */; };
+		B98378C55379E1B92897F11A22E38443 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB1743BE20E6A096D1EBC53D4AEF9B /* IQKeyboardManagerSwift-dummy.m */; };
+		BBCD273806682DA823F1CC610536810B /* Pods-ChatAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D38867DE748E969425E45F3E11717FC2 /* Pods-ChatAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04C5F1F1D6B337F87E157B55A747E41 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EEF12552957AFDF4773E875708D57 /* IQKeyboardManagerConstants.swift */; };
+		C0EB3776478AB80676E488BC9C9CDA3C /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC285A9684B8F153E7D7ECDD69652ED /* IQUIScrollView+Additions.swift */; };
+		C15D2950216F564C5FB8ACB382B75926 /* Pods-ChatAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B02D56F1549DC75712D07854FA83A6 /* Pods-ChatAppTests-dummy.m */; };
+		C35DCE97EB77150C41E735DB57BD6616 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FF0C12CB768F1D409CD9EB4DC3B3F /* IQTitleBarButtonItem.swift */; };
+		DDE417BA9D13D2BB98316DF0512A1944 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D2E68A56C0C5A81047A3A1EE8F481 /* IQBarButtonItem.swift */; };
+		DFC6567B5F87B2353B2C3FAFF1C1CAE1 /* Pods-ChatApp-ChatAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AB828B9E135E966A716CF924E9FA02 /* Pods-ChatApp-ChatAppUITests-dummy.m */; };
+		DFEB05DBE371DE831FFBAFE69A5702C8 /* Pods-ChatApp-ChatAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D10E600868379D144872665D68D6B62 /* Pods-ChatApp-ChatAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2F241AE194191F06998ECFD8517ACB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */; };
+		FF6E34582E9074B32FD425D701A7A55D /* Pods-ChatApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4710F8166F8B0EBC55EB310D835148ED /* Pods-ChatApp-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		320AD88112C77AF55BC8AC1BB35D3D72 /* PBXContainerItemProxy */ = {
+		759E132BA1639C6FB14C444353F748BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		D6DF0109CF5B94F2DC728EF16100248E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		F3E3DF1FDACCBF7DD289E9E68EAD42B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,43 +65,83 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02A27E0B0EC978186A24A4233108CB8D /* Pods-ChatApp-ChatAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatApp-ChatAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		04FD62BB3081B2F613A3972CF39B39D4 /* Pods-ChatApp-ChatAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatApp-ChatAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		0B31154BB655BA378D04751E144C22E8 /* Pods-ChatApp-ChatAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatApp-ChatAppUITests.modulemap"; sourceTree = "<group>"; };
-		0E85CCBC1733110D35DF827E7E447757 /* Pods-ChatAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatAppTests-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		35499726954B1867BDB74F4FD0B4F180 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
-		471AE45F6A893337A84FD27D844CBCF4 /* Pods-ChatApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatApp-umbrella.h"; sourceTree = "<group>"; };
-		494FC7F11F9789F94BC0CCF73D8E0459 /* Pods-ChatApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4D8667BF48219931C42134D01989AD1C /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
-		585A2D751E842122CBE37BE60DB9965F /* Pods-ChatApp-ChatAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatApp-ChatAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69A552B1FAAFC6FC97880ADDF7B9D538 /* Pods-ChatApp-ChatAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatApp-ChatAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0261B9E4E6ACA594104BDD85B2F195BA /* Pods-ChatApp-ChatAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatApp-ChatAppUITests-Info.plist"; sourceTree = "<group>"; };
+		08D04120F75220E8542AC9681E4A21F0 /* Pods-ChatAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C99F17AD71CB4353AA6A1BD4D106169 /* Pods-ChatApp-ChatAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatApp-ChatAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0D10E600868379D144872665D68D6B62 /* Pods-ChatApp-ChatAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatApp-ChatAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		0EBD644823DB848114446F03972F1D6F /* Pods-ChatAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatAppTests.modulemap"; sourceTree = "<group>"; };
+		104FD4AFDE8A9F7FD6EBCF0C98C329BA /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
+		11E9449962FE2136431F1E03F02762C6 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		17B02D56F1549DC75712D07854FA83A6 /* Pods-ChatAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatAppTests-dummy.m"; sourceTree = "<group>"; };
+		1A7185052CE18CBF11490A7CE8FD5223 /* Pods-ChatApp-ChatAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatApp-ChatAppUITests.modulemap"; sourceTree = "<group>"; };
+		20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2328B19612FE1FE81C2AA3464DB6D98A /* Pods-ChatAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatAppTests-Info.plist"; sourceTree = "<group>"; };
+		24BDD4466B78EAD5966C93F58216A696 /* Pods-ChatApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatApp-Info.plist"; sourceTree = "<group>"; };
+		289E75145E17AE8E2CB136609D2C00B3 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		2B0BCEB9F066AC79609D6853AEA2A64B /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		2CEB1743BE20E6A096D1EBC53D4AEF9B /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		3057707BB706AAF034B6D708F9A227AE /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		315AC36C0BB4446D76F1F8787018615D /* Pods-ChatAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3702FEF483C1B6FD07C66901B7BB7AD5 /* Pods-ChatApp-ChatAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatApp-ChatAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BF0C69B3B6881C804F89A7040C51130 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		46DF660446BC8D98DA1F6FB6725440E3 /* IQKeyboardManagerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.release.xcconfig; sourceTree = "<group>"; };
+		4710F8166F8B0EBC55EB310D835148ED /* Pods-ChatApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatApp-dummy.m"; sourceTree = "<group>"; };
+		48AB828B9E135E966A716CF924E9FA02 /* Pods-ChatApp-ChatAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatApp-ChatAppUITests-dummy.m"; sourceTree = "<group>"; };
+		4C3927D54819D59F8277DF380A2748E1 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		52F781906C447D33341B502ED46D2EC2 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F8FD3E6EB852C01CF64587E5384346F /* Pods-ChatApp-ChatAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatApp-ChatAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		63A1230C7F2F45DF4087354000B93813 /* Pods-ChatAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CD9F474E0708054C2BF5C2887BA7686 /* Pods-ChatApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatApp.modulemap"; sourceTree = "<group>"; };
 		6E0F8CD3DBAF4B317AD510BCEA033053 /* Pods_ChatApp_ChatAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChatApp_ChatAppUITests.framework; path = "Pods-ChatApp-ChatAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75C205D000D135EEE9F410D6FD411F3E /* Pods-ChatAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9744735653010FF1065DEFC1EC98F7A5 /* Pods-ChatApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D933D95142BBE687526675C934D0D73 /* Pods-ChatApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatApp-dummy.m"; sourceTree = "<group>"; };
+		72BD7F7755E1A630C3813F4293009939 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		85F2D80A5DD0CF943AD757DB6C24FB1E /* Pods-ChatApp-ChatAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatApp-ChatAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A4F43F7E040B111D75D6367BC69BAE2 /* Pods-ChatApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatApp-umbrella.h"; sourceTree = "<group>"; };
+		8A6EEF12552957AFDF4773E875708D57 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A65593DB0822700AEB3124BB25BB4670 /* Pods-ChatApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatApp.modulemap"; sourceTree = "<group>"; };
-		B33D98084BE69EDF57375F63D1F90202 /* Pods-ChatApp-ChatAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatApp-ChatAppUITests-dummy.m"; sourceTree = "<group>"; };
-		B787792D2C6827DAF4F68AF7827EE029 /* Pods-ChatAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatAppTests-dummy.m"; sourceTree = "<group>"; };
-		C2CE56E18B85E506FA8C0B45E8738B81 /* Pods-ChatAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatAppTests.modulemap"; sourceTree = "<group>"; };
-		C51ABE0E2F716512540B2BDFB0D76D48 /* Pods-ChatApp-ChatAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatApp-ChatAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC090CD70E51FE720712676168279169 /* Pods-ChatApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatApp-Info.plist"; sourceTree = "<group>"; };
-		CCD7DEFC3125857C3E40BEB9BFB4782C /* Pods-ChatApp-ChatAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatApp-ChatAppUITests-Info.plist"; sourceTree = "<group>"; };
-		CFA54CF7878DE516B5A4E632D4343539 /* Pods-ChatAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A132422F7FD2826D961BDFDAF131EB48 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		A39910F1F594D593BEE51D903C17207A /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96CD504360817CF039E4FA7059C31C4 /* Pods-ChatAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BE6A7C3C069EDDB70E8CFE79436229CB /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		C12D2E68A56C0C5A81047A3A1EE8F481 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		C5510217A570F50FAA3F5E1094A0F0E0 /* IQKeyboardManagerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.debug.xcconfig; sourceTree = "<group>"; };
+		C5DB788589E16A50605EEF6AD68F414C /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		CF90AB58866427BE8E7D81E6D74B0D3C /* Pods-ChatApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3848210112BD1F86B77025D186BAAF9 /* Pods-ChatApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		D38867DE748E969425E45F3E11717FC2 /* Pods-ChatAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatAppTests-umbrella.h"; sourceTree = "<group>"; };
 		D594F644C8B1860EA30D6A26621B986B /* Pods_ChatAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChatAppTests.framework; path = "Pods-ChatAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8E5F6EA058F0D38920C326BC0926916 /* Pods-ChatAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA15BBB8B74533E3FEC261560B5917F5 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		DE7C4FBF7859B4844A58F142042039CA /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		DFC285A9684B8F153E7D7ECDD69652ED /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		E0F43534BC1AFDC445DBE922ACC7C646 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		E514DACCE1B527B50E468AF19860C18B /* Pods-ChatApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatApp-frameworks.sh"; sourceTree = "<group>"; };
+		E88FF0C12CB768F1D409CD9EB4DC3B3F /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
 		F1B8738E5AF68B43CE2044E35F9A9CDF /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChatApp.framework; path = "Pods-ChatApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F47B0D89EC063261AA24ECF63890BB70 /* Pods-ChatAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FF40FABF264BA622FC25A9D947F50BC6 /* Pods-ChatAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatAppTests-Info.plist"; sourceTree = "<group>"; };
+		F3AFB977A1D47B55AFD417E2DB98CA09 /* Pods-ChatApp-ChatAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatApp-ChatAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F82A734DA18EB2A619E5DCD06929D582 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		FA66F54B712994CD5B1D65908F270DF5 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DB1025E99893AD9F98F0C193FA0D6C6 /* Frameworks */ = {
+		2C2292E431F316076553538B7FBB63C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1675B78BD522B2658126D20B7D665744 /* Foundation.framework in Frameworks */,
+				0564E54A6F03094F6F39F7D2325CE0D5 /* CoreGraphics.framework in Frameworks */,
+				2964A4832ED09F9CB441D25FB2F7B76C /* Foundation.framework in Frameworks */,
+				8F92DE493E66A26C230C75F95BEB6C77 /* QuartzCore.framework in Frameworks */,
+				E2F241AE194191F06998ECFD8517ACB9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFB9FF403E9D8B2FEEA51FB9396816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239B316566CE5D8E27404A3F78524066 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,52 +153,89 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93364C178E39CC0AAFA678A7411DCEF8 /* Frameworks */ = {
+		6F6ED47F175E2897E514024011CD6172 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D1A988D07BDA9C323D2A111EEC929C0 /* Foundation.framework in Frameworks */,
+				24E7B9696D7708508C2E15ADD936F77C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0331CD0ACD79A5F4DA5894C8AD8DB997 /* Pods-ChatApp */ = {
+		146FBCF0D29B1A36E5902195BED2510B /* Pods-ChatApp-ChatAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A65593DB0822700AEB3124BB25BB4670 /* Pods-ChatApp.modulemap */,
-				494FC7F11F9789F94BC0CCF73D8E0459 /* Pods-ChatApp-acknowledgements.markdown */,
-				9744735653010FF1065DEFC1EC98F7A5 /* Pods-ChatApp-acknowledgements.plist */,
-				9D933D95142BBE687526675C934D0D73 /* Pods-ChatApp-dummy.m */,
-				CC090CD70E51FE720712676168279169 /* Pods-ChatApp-Info.plist */,
-				471AE45F6A893337A84FD27D844CBCF4 /* Pods-ChatApp-umbrella.h */,
-				35499726954B1867BDB74F4FD0B4F180 /* Pods-ChatApp.debug.xcconfig */,
-				4D8667BF48219931C42134D01989AD1C /* Pods-ChatApp.release.xcconfig */,
-			);
-			name = "Pods-ChatApp";
-			path = "Target Support Files/Pods-ChatApp";
-			sourceTree = "<group>";
-		};
-		111A904EDC5842708FB6307F7FC00A19 /* Pods-ChatApp-ChatAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0B31154BB655BA378D04751E144C22E8 /* Pods-ChatApp-ChatAppUITests.modulemap */,
-				585A2D751E842122CBE37BE60DB9965F /* Pods-ChatApp-ChatAppUITests-acknowledgements.markdown */,
-				C51ABE0E2F716512540B2BDFB0D76D48 /* Pods-ChatApp-ChatAppUITests-acknowledgements.plist */,
-				B33D98084BE69EDF57375F63D1F90202 /* Pods-ChatApp-ChatAppUITests-dummy.m */,
-				CCD7DEFC3125857C3E40BEB9BFB4782C /* Pods-ChatApp-ChatAppUITests-Info.plist */,
-				04FD62BB3081B2F613A3972CF39B39D4 /* Pods-ChatApp-ChatAppUITests-umbrella.h */,
-				02A27E0B0EC978186A24A4233108CB8D /* Pods-ChatApp-ChatAppUITests.debug.xcconfig */,
-				69A552B1FAAFC6FC97880ADDF7B9D538 /* Pods-ChatApp-ChatAppUITests.release.xcconfig */,
+				1A7185052CE18CBF11490A7CE8FD5223 /* Pods-ChatApp-ChatAppUITests.modulemap */,
+				F3AFB977A1D47B55AFD417E2DB98CA09 /* Pods-ChatApp-ChatAppUITests-acknowledgements.markdown */,
+				85F2D80A5DD0CF943AD757DB6C24FB1E /* Pods-ChatApp-ChatAppUITests-acknowledgements.plist */,
+				48AB828B9E135E966A716CF924E9FA02 /* Pods-ChatApp-ChatAppUITests-dummy.m */,
+				5F8FD3E6EB852C01CF64587E5384346F /* Pods-ChatApp-ChatAppUITests-frameworks.sh */,
+				0261B9E4E6ACA594104BDD85B2F195BA /* Pods-ChatApp-ChatAppUITests-Info.plist */,
+				0D10E600868379D144872665D68D6B62 /* Pods-ChatApp-ChatAppUITests-umbrella.h */,
+				3702FEF483C1B6FD07C66901B7BB7AD5 /* Pods-ChatApp-ChatAppUITests.debug.xcconfig */,
+				0C99F17AD71CB4353AA6A1BD4D106169 /* Pods-ChatApp-ChatAppUITests.release.xcconfig */,
 			);
 			name = "Pods-ChatApp-ChatAppUITests";
 			path = "Target Support Files/Pods-ChatApp-ChatAppUITests";
 			sourceTree = "<group>";
 		};
-		43D89BC6130AFC52F6FDFCFFC654E097 /* Products */ = {
+		19773052FB51D3406FF99FD8DDD5AF0B /* IQKeyboardManagerSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C12D2E68A56C0C5A81047A3A1EE8F481 /* IQBarButtonItem.swift */,
+				3BF0C69B3B6881C804F89A7040C51130 /* IQInvocation.swift */,
+				3057707BB706AAF034B6D708F9A227AE /* IQKeyboardManager.swift */,
+				8A6EEF12552957AFDF4773E875708D57 /* IQKeyboardManagerConstants.swift */,
+				A132422F7FD2826D961BDFDAF131EB48 /* IQKeyboardManagerConstantsInternal.swift */,
+				F82A734DA18EB2A619E5DCD06929D582 /* IQKeyboardReturnKeyHandler.swift */,
+				4C3927D54819D59F8277DF380A2748E1 /* IQNSArray+Sort.swift */,
+				DA15BBB8B74533E3FEC261560B5917F5 /* IQPreviousNextView.swift */,
+				289E75145E17AE8E2CB136609D2C00B3 /* IQTextView.swift */,
+				E88FF0C12CB768F1D409CD9EB4DC3B3F /* IQTitleBarButtonItem.swift */,
+				DE7C4FBF7859B4844A58F142042039CA /* IQToolbar.swift */,
+				DFC285A9684B8F153E7D7ECDD69652ED /* IQUIScrollView+Additions.swift */,
+				FA66F54B712994CD5B1D65908F270DF5 /* IQUITextFieldView+Additions.swift */,
+				BE6A7C3C069EDDB70E8CFE79436229CB /* IQUIView+Hierarchy.swift */,
+				72BD7F7755E1A630C3813F4293009939 /* IQUIView+IQKeyboardToolbar.swift */,
+				C5DB788589E16A50605EEF6AD68F414C /* IQUIViewController+Additions.swift */,
+				1B4455A90DD87B30FEF59D39B8E6A752 /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		1B4455A90DD87B30FEF59D39B8E6A752 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52F781906C447D33341B502ED46D2EC2 /* IQKeyboardManagerSwift.modulemap */,
+				2CEB1743BE20E6A096D1EBC53D4AEF9B /* IQKeyboardManagerSwift-dummy.m */,
+				104FD4AFDE8A9F7FD6EBCF0C98C329BA /* IQKeyboardManagerSwift-Info.plist */,
+				2B0BCEB9F066AC79609D6853AEA2A64B /* IQKeyboardManagerSwift-prefix.pch */,
+				E0F43534BC1AFDC445DBE922ACC7C646 /* IQKeyboardManagerSwift-umbrella.h */,
+				C5510217A570F50FAA3F5E1094A0F0E0 /* IQKeyboardManagerSwift.debug.xcconfig */,
+				46DF660446BC8D98DA1F6FB6725440E3 /* IQKeyboardManagerSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		216D11D6253026459814863746CC99A1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */,
+				762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */,
+				B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */,
+				56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		52E64BF221D4DCA504734FEE0B2600B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
 				F1B8738E5AF68B43CE2044E35F9A9CDF /* Pods_ChatApp.framework */,
 				6E0F8CD3DBAF4B317AD510BCEA033053 /* Pods_ChatApp_ChatAppUITests.framework */,
 				D594F644C8B1860EA30D6A26621B986B /* Pods_ChatAppTests.framework */,
@@ -130,74 +243,92 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D86A076AA3696D97A0DC0084E6E8225 /* Targets Support Files */ = {
+		94BE654B4590E951871FEE4EF4E7848B /* Pods-ChatApp */ = {
 			isa = PBXGroup;
 			children = (
-				0331CD0ACD79A5F4DA5894C8AD8DB997 /* Pods-ChatApp */,
-				111A904EDC5842708FB6307F7FC00A19 /* Pods-ChatApp-ChatAppUITests */,
-				9C073FFF19C24E968EB688340A90C2D5 /* Pods-ChatAppTests */,
+				6CD9F474E0708054C2BF5C2887BA7686 /* Pods-ChatApp.modulemap */,
+				CF90AB58866427BE8E7D81E6D74B0D3C /* Pods-ChatApp-acknowledgements.markdown */,
+				D3848210112BD1F86B77025D186BAAF9 /* Pods-ChatApp-acknowledgements.plist */,
+				4710F8166F8B0EBC55EB310D835148ED /* Pods-ChatApp-dummy.m */,
+				E514DACCE1B527B50E468AF19860C18B /* Pods-ChatApp-frameworks.sh */,
+				24BDD4466B78EAD5966C93F58216A696 /* Pods-ChatApp-Info.plist */,
+				8A4F43F7E040B111D75D6367BC69BAE2 /* Pods-ChatApp-umbrella.h */,
+				11E9449962FE2136431F1E03F02762C6 /* Pods-ChatApp.debug.xcconfig */,
+				A39910F1F594D593BEE51D903C17207A /* Pods-ChatApp.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-ChatApp";
+			path = "Target Support Files/Pods-ChatApp";
 			sourceTree = "<group>";
 		};
-		9C073FFF19C24E968EB688340A90C2D5 /* Pods-ChatAppTests */ = {
+		A51253477688703904B89F3E13D2B91D /* Pods-ChatAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				C2CE56E18B85E506FA8C0B45E8738B81 /* Pods-ChatAppTests.modulemap */,
-				E8E5F6EA058F0D38920C326BC0926916 /* Pods-ChatAppTests-acknowledgements.markdown */,
-				75C205D000D135EEE9F410D6FD411F3E /* Pods-ChatAppTests-acknowledgements.plist */,
-				B787792D2C6827DAF4F68AF7827EE029 /* Pods-ChatAppTests-dummy.m */,
-				FF40FABF264BA622FC25A9D947F50BC6 /* Pods-ChatAppTests-Info.plist */,
-				0E85CCBC1733110D35DF827E7E447757 /* Pods-ChatAppTests-umbrella.h */,
-				F47B0D89EC063261AA24ECF63890BB70 /* Pods-ChatAppTests.debug.xcconfig */,
-				CFA54CF7878DE516B5A4E632D4343539 /* Pods-ChatAppTests.release.xcconfig */,
+				0EBD644823DB848114446F03972F1D6F /* Pods-ChatAppTests.modulemap */,
+				315AC36C0BB4446D76F1F8787018615D /* Pods-ChatAppTests-acknowledgements.markdown */,
+				63A1230C7F2F45DF4087354000B93813 /* Pods-ChatAppTests-acknowledgements.plist */,
+				17B02D56F1549DC75712D07854FA83A6 /* Pods-ChatAppTests-dummy.m */,
+				2328B19612FE1FE81C2AA3464DB6D98A /* Pods-ChatAppTests-Info.plist */,
+				D38867DE748E969425E45F3E11717FC2 /* Pods-ChatAppTests-umbrella.h */,
+				08D04120F75220E8542AC9681E4A21F0 /* Pods-ChatAppTests.debug.xcconfig */,
+				B96CD504360817CF039E4FA7059C31C4 /* Pods-ChatAppTests.release.xcconfig */,
 			);
 			name = "Pods-ChatAppTests";
 			path = "Target Support Files/Pods-ChatAppTests";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		B76BA78A99D5BD517391A6B9597BCBC5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				19773052FB51D3406FF99FD8DDD5AF0B /* IQKeyboardManagerSwift */,
 			);
-			name = iOS;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216D11D6253026459814863746CC99A1 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				43D89BC6130AFC52F6FDFCFFC654E097 /* Products */,
-				5D86A076AA3696D97A0DC0084E6E8225 /* Targets Support Files */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				B76BA78A99D5BD517391A6B9597BCBC5 /* Pods */,
+				52E64BF221D4DCA504734FEE0B2600B6 /* Products */,
+				E74C39E7AEB3945778BF2813B4D1C9FD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E74C39E7AEB3945778BF2813B4D1C9FD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				94BE654B4590E951871FEE4EF4E7848B /* Pods-ChatApp */,
+				146FBCF0D29B1A36E5902195BED2510B /* Pods-ChatApp-ChatAppUITests */,
+				A51253477688703904B89F3E13D2B91D /* Pods-ChatAppTests */,
 			);
-			name = Frameworks;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		30141BE2BEC23B26071C05B6D70C490D /* Headers */ = {
+		33C9BAE3DC9F9F552AD529C7F2B7C644 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7B62DFAC4360A70BB3F524CA9E92C1C /* Pods-ChatApp-umbrella.h in Headers */,
+				A4CBAD531AD7ABAC2D05C7BC07CDE48E /* Pods-ChatApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		433F0058AFD1863ECF1A04B7F17A2FEC /* Headers */ = {
+		A09B1F9A1078D1C63B64ACEB1BA13393 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408C87478A9AF0547B33E4E9C5B70377 /* Pods-ChatApp-ChatAppUITests-umbrella.h in Headers */,
+				DFEB05DBE371DE831FFBAFE69A5702C8 /* Pods-ChatApp-ChatAppUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +337,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBCD273806682DA823F1CC610536810B /* Pods-ChatAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A6429FF0F9608A16E4D96813E85F23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A85277D0462C43B80A05E8822794BB /* IQKeyboardManagerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +363,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A6E913A5A4E45C4DCD751FD0786D3E82 /* PBXTargetDependency */,
+				AF09B3C5B111F8982F96428DAFAB495D /* PBXTargetDependency */,
 			);
 			name = "Pods-ChatAppTests";
 			productName = "Pods-ChatAppTests";
@@ -233,16 +372,17 @@
 		};
 		3E56AAC0A8B8C5BC2C6E42C547BDBFFE /* Pods-ChatApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54E1570C62BF51C0239FF59A97C13CEE /* Build configuration list for PBXNativeTarget "Pods-ChatApp" */;
+			buildConfigurationList = B76A8F44A82FE3CA5D167551F0151117 /* Build configuration list for PBXNativeTarget "Pods-ChatApp" */;
 			buildPhases = (
-				30141BE2BEC23B26071C05B6D70C490D /* Headers */,
-				E7C1814D14D5BB976758A3C154A09A58 /* Sources */,
-				4DB1025E99893AD9F98F0C193FA0D6C6 /* Frameworks */,
-				91C014A7D11DFA16BD0F0B7E341DB109 /* Resources */,
+				33C9BAE3DC9F9F552AD529C7F2B7C644 /* Headers */,
+				1B8A53B5896595CDA3A6695FFCBEE7D7 /* Sources */,
+				6F6ED47F175E2897E514024011CD6172 /* Frameworks */,
+				3F23B41EF3389BCEF4A30C6B2F5F0DFF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6FC4B2DF6D5CCAEE72BD320185703337 /* PBXTargetDependency */,
 			);
 			name = "Pods-ChatApp";
 			productName = "Pods-ChatApp";
@@ -251,20 +391,39 @@
 		};
 		A04C4BF3B52978EBFB2A4D3844A1E15A /* Pods-ChatApp-ChatAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A304B428EE7DDC78BFC05518DFDE9D51 /* Build configuration list for PBXNativeTarget "Pods-ChatApp-ChatAppUITests" */;
+			buildConfigurationList = 538D79B87B8C07B8F34C8229D6D3435F /* Build configuration list for PBXNativeTarget "Pods-ChatApp-ChatAppUITests" */;
 			buildPhases = (
-				433F0058AFD1863ECF1A04B7F17A2FEC /* Headers */,
-				9829BCA107AFE5A629B2FA55DC54BAB1 /* Sources */,
-				93364C178E39CC0AAFA678A7411DCEF8 /* Frameworks */,
-				57BA84CE8D3C7F5259A469FA2D0CA325 /* Resources */,
+				A09B1F9A1078D1C63B64ACEB1BA13393 /* Headers */,
+				7AAA3182D4483BF0ED357F71EEDCE59A /* Sources */,
+				2EFB9FF403E9D8B2FEEA51FB9396816F /* Frameworks */,
+				F1D401A9BA0A2478E701BA6A8948B6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4F4D23BA48A643DFAEAAE34AFDA6D4B /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatApp-ChatAppUITests";
+			productName = "Pods-ChatApp-ChatAppUITests";
+			productReference = 6E0F8CD3DBAF4B317AD510BCEA033053 /* Pods_ChatApp_ChatAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7155AE59A19533F60ECE3B4045B01F0 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				F4A6429FF0F9608A16E4D96813E85F23 /* Headers */,
+				6C02E9CBF87ED8A1C6D8ED4C951F75A4 /* Sources */,
+				2C2292E431F316076553538B7FBB63C3 /* Frameworks */,
+				FAA5DA81F8292820D65F403E941074FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-ChatApp-ChatAppUITests";
-			productName = "Pods-ChatApp-ChatAppUITests";
-			productReference = 6E0F8CD3DBAF4B317AD510BCEA033053 /* Pods_ChatApp_ChatAppUITests.framework */;
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -285,10 +444,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 43D89BC6130AFC52F6FDFCFFC654E097 /* Products */;
+			productRefGroup = 52E64BF221D4DCA504734FEE0B2600B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */,
 				3E56AAC0A8B8C5BC2C6E42C547BDBFFE /* Pods-ChatApp */,
 				A04C4BF3B52978EBFB2A4D3844A1E15A /* Pods-ChatApp-ChatAppUITests */,
 				36B28A4507F7D8EC3FB7FE892B09090F /* Pods-ChatAppTests */,
@@ -304,14 +464,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57BA84CE8D3C7F5259A469FA2D0CA325 /* Resources */ = {
+		3F23B41EF3389BCEF4A30C6B2F5F0DFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91C014A7D11DFA16BD0F0B7E341DB109 /* Resources */ = {
+		F1D401A9BA0A2478E701BA6A8948B6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5DA81F8292820D65F403E941074FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,6 +488,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B8A53B5896595CDA3A6695FFCBEE7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6E34582E9074B32FD425D701A7A55D /* Pods-ChatApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C02E9CBF87ED8A1C6D8ED4C951F75A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE417BA9D13D2BB98316DF0512A1944 /* IQBarButtonItem.swift in Sources */,
+				4F0CF2AD58CF0D08BC090E7AF0DD63D7 /* IQInvocation.swift in Sources */,
+				3F091C427A3E96117C902E8EA143729E /* IQKeyboardManager.swift in Sources */,
+				C04C5F1F1D6B337F87E157B55A747E41 /* IQKeyboardManagerConstants.swift in Sources */,
+				102F4487BC4ADC3C2B56A0470E0A9468 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				B98378C55379E1B92897F11A22E38443 /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				4737103B10A1C40C5301D0512B9310E4 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				259D6FC80BCFE785471F743B1F533970 /* IQNSArray+Sort.swift in Sources */,
+				5044FEAEF09468B6964F9F37A1F1F45C /* IQPreviousNextView.swift in Sources */,
+				7FB3576FD619DD256294BAD7E5F83CBE /* IQTextView.swift in Sources */,
+				C35DCE97EB77150C41E735DB57BD6616 /* IQTitleBarButtonItem.swift in Sources */,
+				980E5594F8DBCE362764AEDC2F086E36 /* IQToolbar.swift in Sources */,
+				C0EB3776478AB80676E488BC9C9CDA3C /* IQUIScrollView+Additions.swift in Sources */,
+				4C069FA7FAA45154DA92CF5DF3BCDCA9 /* IQUITextFieldView+Additions.swift in Sources */,
+				8B439A47AA5FDEF67AD63BDDB808AC5A /* IQUIView+Hierarchy.swift in Sources */,
+				AE3B246482DCD60BA846EA3CE983A1FB /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				74341DA37F4B926FDF4CB2599CAC547A /* IQUIViewController+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAA3182D4483BF0ED357F71EEDCE59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC6567B5F87B2353B2C3FAFF1C1CAE1 /* Pods-ChatApp-ChatAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93F266A6D0DBA4D921CEB4D4D4A8B0F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,37 +536,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9829BCA107AFE5A629B2FA55DC54BAB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A4DD51D3AC070E0083C8C61F87B5306 /* Pods-ChatApp-ChatAppUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7C1814D14D5BB976758A3C154A09A58 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5EC8CD21E12C9EABCD8A7EF2ACC4DD25 /* Pods-ChatApp-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A6E913A5A4E45C4DCD751FD0786D3E82 /* PBXTargetDependency */ = {
+		6FC4B2DF6D5CCAEE72BD320185703337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = D6DF0109CF5B94F2DC728EF16100248E /* PBXContainerItemProxy */;
+		};
+		AF09B3C5B111F8982F96428DAFAB495D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ChatApp";
 			target = 3E56AAC0A8B8C5BC2C6E42C547BDBFFE /* Pods-ChatApp */;
-			targetProxy = 320AD88112C77AF55BC8AC1BB35D3D72 /* PBXContainerItemProxy */;
+			targetProxy = F3E3DF1FDACCBF7DD289E9E68EAD42B1 /* PBXContainerItemProxy */;
+		};
+		E4F4D23BA48A643DFAEAAE34AFDA6D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = 759E132BA1639C6FB14C444353F748BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		270654C1D668495B07754C8ED1B91247 /* Debug */ = {
+		0E819F5D87ACB138067D650238D839BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35499726954B1867BDB74F4FD0B4F180 /* Pods-ChatApp.debug.xcconfig */;
+			baseConfigurationReference = 0C99F17AD71CB4353AA6A1BD4D106169 /* Pods-ChatApp-ChatAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatApp-ChatAppUITests/Pods-ChatApp-ChatAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatApp-ChatAppUITests/Pods-ChatApp-ChatAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3715D641EC3A4D8CE56D4360BA25C174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3702FEF483C1B6FD07C66901B7BB7AD5 /* Pods-ChatApp-ChatAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatApp-ChatAppUITests/Pods-ChatApp-ChatAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatApp-ChatAppUITests/Pods-ChatApp-ChatAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CC924D3CDA293F5CCBA6478602EA9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E9449962FE2136431F1E03F02762C6 /* Pods-ChatApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -393,44 +671,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		48B09C79F9E8107A1BA2908237D0CE0D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D8667BF48219931C42134D01989AD1C /* Pods-ChatApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ChatApp/Pods-ChatApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ChatApp/Pods-ChatApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -558,7 +798,7 @@
 		};
 		9B69C4B95890C6D285467507E636ADBA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F47B0D89EC063261AA24ECF63890BB70 /* Pods-ChatAppTests.debug.xcconfig */;
+			baseConfigurationReference = 08D04120F75220E8542AC9681E4A21F0 /* Pods-ChatAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -593,11 +833,10 @@
 			};
 			name = Debug;
 		};
-		BDA4820C5DEE4D297334037FDEDEBE5B /* Debug */ = {
+		A89CCE97470F3A0B25E68312A6ABE339 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02A27E0B0EC978186A24A4233108CB8D /* Pods-ChatApp-ChatAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 46DF660446BC8D98DA1F6FB6725440E3 /* IQKeyboardManagerSwift.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -607,32 +846,32 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ChatApp-ChatAppUITests/Pods-ChatApp-ChatAppUITests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ChatApp-ChatAppUITests/Pods-ChatApp-ChatAppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		CF6F8A10DA22A3B8B528DA25DD5C60BD /* Release */ = {
+		B577F3E963D2BE1EBA604B99F8954C0B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69A552B1FAAFC6FC97880ADDF7B9D538 /* Pods-ChatApp-ChatAppUITests.release.xcconfig */;
+			baseConfigurationReference = A39910F1F594D593BEE51D903C17207A /* Pods-ChatApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -644,7 +883,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ChatApp-ChatAppUITests/Pods-ChatApp-ChatAppUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatApp/Pods-ChatApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -653,7 +892,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ChatApp-ChatAppUITests/Pods-ChatApp-ChatAppUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatApp/Pods-ChatApp.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -668,9 +907,44 @@
 			};
 			name = Release;
 		};
+		CA0686B4445ABD5F6E94B801BDA8ED10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5510217A570F50FAA3F5E1094A0F0E0 /* IQKeyboardManagerSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		FEF895178BA8A34464EED53A88F65B87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA54CF7878DE516B5A4E632D4343539 /* Pods-ChatAppTests.release.xcconfig */;
+			baseConfigurationReference = B96CD504360817CF039E4FA7059C31C4 /* Pods-ChatAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -718,20 +992,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54E1570C62BF51C0239FF59A97C13CEE /* Build configuration list for PBXNativeTarget "Pods-ChatApp" */ = {
+		538D79B87B8C07B8F34C8229D6D3435F /* Build configuration list for PBXNativeTarget "Pods-ChatApp-ChatAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				270654C1D668495B07754C8ED1B91247 /* Debug */,
-				48B09C79F9E8107A1BA2908237D0CE0D /* Release */,
+				3715D641EC3A4D8CE56D4360BA25C174 /* Debug */,
+				0E819F5D87ACB138067D650238D839BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A304B428EE7DDC78BFC05518DFDE9D51 /* Build configuration list for PBXNativeTarget "Pods-ChatApp-ChatAppUITests" */ = {
+		A7155AE59A19533F60ECE3B4045B01F0 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDA4820C5DEE4D297334037FDEDEBE5B /* Debug */,
-				CF6F8A10DA22A3B8B528DA25DD5C60BD /* Release */,
+				CA0686B4445ABD5F6E94B801BDA8ED10 /* Debug */,
+				A89CCE97470F3A0B25E68312A6ABE339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76A8F44A82FE3CA5D167551F0151117 /* Build configuration list for PBXNativeTarget "Pods-ChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC924D3CDA293F5CCBA6478602EA9E6 /* Debug */,
+				B577F3E963D2BE1EBA604B99F8954C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

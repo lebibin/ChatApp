@@ -102,6 +102,7 @@ struct AuthenticationView: View {
                 break
             }
         }
+        self.validCredentials = self.currentUser != nil
     }
     
     private func clearForm() {
