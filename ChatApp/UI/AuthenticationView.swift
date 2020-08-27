@@ -10,10 +10,11 @@ import SwiftUI
 
 struct AuthenticationView: View {
     @Binding var authentication: Authentication
-    @Binding var authenticated: Bool?
+    @Binding var currentUser: Credential?
     @Binding var credentials: [Credential]
     @Binding var username: String
     @Binding var password: String
+    @State private var validCredentials: Bool?
     var body: some View {
         NavigationView {
             VStack(alignment: .center) {
@@ -24,14 +25,14 @@ struct AuthenticationView: View {
                     .background(Color.init(red: 241/255, green: 247/255, blue: 250/255))
                     .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.white, lineWidth: 4))
                     .padding([.leading, .trailing], 12)
-                if self.authenticated == false { ErrorMessage() }
+                if !(self.validCredentials ?? true) { ErrorMessage() }
                 SecureField("password", text: $password)
                     .frame(height: 56)
                     .padding([.leading, .trailing], 12)
                     .background(Color.init(red: 241/255, green: 247/255, blue: 250/255))
                     .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.white, lineWidth: 4))
                     .padding([.leading, .trailing], 12)
-                if self.authenticated == false { ErrorMessage() }
+                if !(self.validCredentials ?? true) { ErrorMessage() }
                 Button(action: {
                     if self.authentication == .login {
                         self.handleAuthentication()
@@ -51,7 +52,8 @@ struct AuthenticationView: View {
                          .padding()
                  }
                 Button(action: {
-                    self.authenticated = nil
+                    self.currentUser = nil
+                    self.validCredentials = nil
                     self.authentication = self.CounterpartAuthentication()
                 }) {
                     Text(CounterpartAuthentication().title)
@@ -74,14 +76,13 @@ struct AuthenticationView: View {
     }
     
     private func handleSignUp() {
-        self.authenticated = false
-        if(!self.validateCredentials()) { return }
-        self.authenticated = true
-        self.credentials.append(
-            Credential(username: self.username,
-                       password: self.password
-            )
-        )
+        self.currentUser = nil
+        self.validCredentials = self.validateCredentials()
+        if !(self.validCredentials ?? false) { return }
+        let user = Credential(username: self.username,
+                              password: self.password)
+        self.currentUser = user
+        self.credentials.append(user)
         self.clearForm()
     }
     
@@ -91,11 +92,12 @@ struct AuthenticationView: View {
     }
     
     private func handleAuthentication() {
-        self.authenticated = false
-        if !(self.validateCredentials() ) { return }
+        self.currentUser = nil
+        self.validCredentials = self.validateCredentials()
+        if !(self.validCredentials ?? false) { return }
         for credential in self.credentials {
-            if(credential.username == self.username) {
-                self.authenticated = credential.password == self.password
+            if(credential.username == self.username && credential.password == self.password) {
+                self.currentUser = credential
                 self.clearForm()
                 break
             }
@@ -128,7 +130,7 @@ struct AuthenticationView: View {
 struct AuthenticationView_Previews: PreviewProvider {
     static var previews: some View {
         AuthenticationView(authentication: .constant(.login),
-                  authenticated: .constant(nil),
+                  currentUser: .constant(nil),
                   credentials: .constant([]),
                   username: .constant(""),
                   password: .constant(""))

@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setupStyles()
         return true
     }
 
@@ -33,5 +34,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    private func setupStyles() {
+        UITableView.appearance().separatorStyle = .none
+    }
 }
 

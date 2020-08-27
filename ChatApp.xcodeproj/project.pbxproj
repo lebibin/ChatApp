@@ -19,6 +19,9 @@
 		C80FA5FD24F5066900652159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80FA5FB24F5066900652159 /* LaunchScreen.storyboard */; };
 		C80FA60824F5066900652159 /* ChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FA60724F5066900652159 /* ChatAppTests.swift */; };
 		C80FA61324F5066900652159 /* ChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FA61224F5066900652159 /* ChatAppUITests.swift */; };
+		C83D8C8A24F7D4D600A49689 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83D8C8924F7D4D600A49689 /* Message.swift */; };
+		C83D8C8D24F7D9A300A49689 /* FlippedUpsideDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83D8C8C24F7D9A300A49689 /* FlippedUpsideDown.swift */; };
+		C83D8C8F24F7ED1500A49689 /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83D8C8E24F7ED1500A49689 /* ChatRow.swift */; };
 		C8991A0424F665E900C82AD6 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8991A0324F665E900C82AD6 /* Authentication.swift */; };
 		C8C7CD6F24F7C68200F4BB95 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C7CD6E24F7C68200F4BB95 /* ChatView.swift */; };
 		C8C7CD7124F7C77800F4BB95 /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C7CD7024F7C77800F4BB95 /* Credential.swift */; };
@@ -67,6 +70,9 @@
 		C80FA60E24F5066900652159 /* ChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80FA61224F5066900652159 /* ChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITests.swift; sourceTree = "<group>"; };
 		C80FA61424F5066900652159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83D8C8924F7D4D600A49689 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C83D8C8C24F7D9A300A49689 /* FlippedUpsideDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippedUpsideDown.swift; sourceTree = "<group>"; };
+		C83D8C8E24F7ED1500A49689 /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
 		C8991A0324F665E900C82AD6 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		C8C7CD6E24F7C68200F4BB95 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		C8C7CD7024F7C77800F4BB95 /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
@@ -114,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				C80DBC1C24F52CB90074FDC3 /* AuthenticationView.swift */,
+				C83D8C8E24F7ED1500A49689 /* ChatRow.swift */,
 				C8C7CD6E24F7C68200F4BB95 /* ChatView.swift */,
 				C80FA5F424F5066700652159 /* ContentView.swift */,
 				C80DBC1A24F52C320074FDC3 /* IndexView.swift */,
@@ -146,6 +153,7 @@
 		C80FA5EF24F5066700652159 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				C83D8C8B24F7D99200A49689 /* Extensions */,
 				C8991A0224F665DC00C82AD6 /* Models */,
 				C80DBC1824F52C070074FDC3 /* System */,
 				C80DBC1924F52C120074FDC3 /* UI */,
@@ -183,11 +191,20 @@
 			path = ChatAppUITests;
 			sourceTree = "<group>";
 		};
+		C83D8C8B24F7D99200A49689 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C83D8C8C24F7D9A300A49689 /* FlippedUpsideDown.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C8991A0224F665DC00C82AD6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				C8991A0324F665E900C82AD6 /* Authentication.swift */,
 				C8C7CD7024F7C77800F4BB95 /* Credential.swift */,
+				C83D8C8924F7D4D600A49689 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -418,11 +435,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83D8C8F24F7ED1500A49689 /* ChatRow.swift in Sources */,
 				C8991A0424F665E900C82AD6 /* Authentication.swift in Sources */,
 				C80DBC1D24F52CB90074FDC3 /* AuthenticationView.swift in Sources */,
 				C80FA5F124F5066700652159 /* AppDelegate.swift in Sources */,
+				C83D8C8A24F7D4D600A49689 /* Message.swift in Sources */,
 				C80FA5F324F5066700652159 /* SceneDelegate.swift in Sources */,
 				C8C7CD6F24F7C68200F4BB95 /* ChatView.swift in Sources */,
+				C83D8C8D24F7D9A300A49689 /* FlippedUpsideDown.swift in Sources */,
 				C80DBC1B24F52C320074FDC3 /* IndexView.swift in Sources */,
 				C8C7CD7124F7C77800F4BB95 /* Credential.swift in Sources */,
 				C80FA5F524F5066700652159 /* ContentView.swift in Sources */,

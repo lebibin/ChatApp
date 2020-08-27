@@ -10,10 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var authentication: Authentication = .login
-    @State private var authenticated: Bool? = nil
+    @State private var currentUser: Credential?
     @State private var credentials: [Credential] = [
         Credential(username: "kevin123",
                    password: "letmein221b")
+    ]
+    @State private var messages: [Message] = [
+        Message(content: "Hi Kevin, I just sent the document to you on mail. Plz check it!", senderName: "May", createdAt: Date()),
+        Message(content: "Hi guys, what's up?", senderName: "Mark", createdAt: Date()),
+        Message(content: "Hi Mark, I stay Cebu now", senderName: "April", createdAt: Date()),
     ]
     @State private var onboarded = false
     @State private var username = ""
@@ -23,11 +28,11 @@ struct ContentView: View {
         if !onboarded {
             IndexView(authentication: $authentication, onboarded: $onboarded)
         } else {
-            if(authenticated ?? false) {
-                ChatView(authenticated: $authenticated)
+            if currentUser != nil {
+                ChatView(currentUser: $currentUser, messages: $messages)
             } else {
                 AuthenticationView(authentication: $authentication,
-                                   authenticated: $authenticated,
+                                   currentUser: $currentUser,
                                    credentials: $credentials,
                                    username: $username,
                                    password: $password
