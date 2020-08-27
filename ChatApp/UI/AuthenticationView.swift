@@ -11,6 +11,7 @@ import SwiftUI
 struct AuthenticationView: View {
     @Binding var authentication: Authentication
     @Binding var authenticated: Bool?
+    @Binding var credentials: [Credential]
     @Binding var username: String
     @Binding var password: String
     var body: some View {
@@ -32,7 +33,11 @@ struct AuthenticationView: View {
                     .padding([.leading, .trailing], 12)
                 if self.authenticated == false { ErrorMessage() }
                 Button(action: {
-                    self.authenticated = false
+                    if self.authentication == .login {
+                        self.handleAuthentication()
+                    } else {
+                        self.handleSignUp()
+                    }
                  }) {
                     Text(self.authentication.title)
                          .kerning(2.0)
@@ -68,6 +73,41 @@ struct AuthenticationView: View {
         }
     }
     
+    private func handleSignUp() {
+        self.authenticated = false
+        if(!self.validateCredentials()) { return }
+        self.authenticated = true
+        self.credentials.append(
+            Credential(username: self.username,
+                       password: self.password
+            )
+        )
+        self.clearForm()
+    }
+    
+    private func validateCredentials() -> Bool {
+        let validCount = (8...16)
+        return validCount.contains(self.username.count) && validCount.contains(self.password.count)
+    }
+    
+    private func handleAuthentication() {
+        self.authenticated = false
+        if !(self.validateCredentials() ) { return }
+        for credential in self.credentials {
+            if(credential.username == self.username) {
+                self.authenticated = credential.password == self.password
+                self.clearForm()
+                break
+            }
+        }
+    }
+    
+    private func clearForm() {
+        self.authentication = .signup
+        self.username = ""
+        self.password = ""
+    }
+    
     private func CounterpartAuthentication() -> Authentication {
         switch self.authentication {
         case .login: return .signup
@@ -89,6 +129,7 @@ struct AuthenticationView_Previews: PreviewProvider {
     static var previews: some View {
         AuthenticationView(authentication: .constant(.login),
                   authenticated: .constant(nil),
+                  credentials: .constant([]),
                   username: .constant(""),
                   password: .constant(""))
     }

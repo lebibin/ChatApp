@@ -20,6 +20,8 @@
 		C80FA60824F5066900652159 /* ChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FA60724F5066900652159 /* ChatAppTests.swift */; };
 		C80FA61324F5066900652159 /* ChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FA61224F5066900652159 /* ChatAppUITests.swift */; };
 		C8991A0424F665E900C82AD6 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8991A0324F665E900C82AD6 /* Authentication.swift */; };
+		C8C7CD6F24F7C68200F4BB95 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C7CD6E24F7C68200F4BB95 /* ChatView.swift */; };
+		C8C7CD7124F7C77800F4BB95 /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C7CD7024F7C77800F4BB95 /* Credential.swift */; };
 		F57070CFA6C8A252C17FE26F /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B0EEAEEB7407CCEAC9AA85 /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		C80FA61224F5066900652159 /* ChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITests.swift; sourceTree = "<group>"; };
 		C80FA61424F5066900652159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8991A0324F665E900C82AD6 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		C8C7CD6E24F7C68200F4BB95 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		C8C7CD7024F7C77800F4BB95 /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
 		FF0809035CA41464E7D041D8 /* Pods-ChatApp-ChatAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp-ChatAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp-ChatAppUITests/Pods-ChatApp-ChatAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,9 +113,10 @@
 		C80DBC1924F52C120074FDC3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				C80DBC1C24F52CB90074FDC3 /* AuthenticationView.swift */,
+				C8C7CD6E24F7C68200F4BB95 /* ChatView.swift */,
 				C80FA5F424F5066700652159 /* ContentView.swift */,
 				C80DBC1A24F52C320074FDC3 /* IndexView.swift */,
-				C80DBC1C24F52CB90074FDC3 /* AuthenticationView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				C8991A0324F665E900C82AD6 /* Authentication.swift */,
+				C8C7CD7024F7C77800F4BB95 /* Credential.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -416,7 +422,9 @@
 				C80DBC1D24F52CB90074FDC3 /* AuthenticationView.swift in Sources */,
 				C80FA5F124F5066700652159 /* AppDelegate.swift in Sources */,
 				C80FA5F324F5066700652159 /* SceneDelegate.swift in Sources */,
+				C8C7CD6F24F7C68200F4BB95 /* ChatView.swift in Sources */,
 				C80DBC1B24F52C320074FDC3 /* IndexView.swift in Sources */,
+				C8C7CD7124F7C77800F4BB95 /* Credential.swift in Sources */,
 				C80FA5F524F5066700652159 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
